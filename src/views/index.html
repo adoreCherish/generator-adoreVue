@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Template</title>
+
+</head>
+
+    <body>
+    <!-- <router-view ></router-view> -->
+        
+        <!-- Content -->
+        <div class="cd-hero">
+
+            <!-- Navigation -->        
+            <div class="cd-slider-nav">
+                <nav class="navbar">
+                    <div class="tm-navbar-bg">
+                        
+                        <a class="navbar-brand text-uppercase" href="#"><i class="fa fa-picture-o tm-brand-icon"></i>LOGO</a>
+
+                        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+                            &#9776;
+                        </button>
+                        <router-view class="view two" name="navitem" :list="navitems"></router-view>
+
+                    </div>
+
+                </nav>
+            </div> 
+
+            <ul class="cd-hero-slider">
+                <li class="selected">                    
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content" data-page-no="1" data-page-type="gallery">
+                            <div class="tm-img-gallery-container">
+                                <div class="tm-img-gallery gallery-one">
+                                
+                                    <router-view class="view three" name="cdheroitems" :list="items"></router-view>
+                                    <router-view name="gitbranch"></router-view>
+                                   
+                                </div>                                 
+                            </div>
+                        </div>                                                    
+                    </div>                    
+                </li>
+
+            </ul> <!-- .cd-hero-slider -->
+            
+                    
+        <!-- </div> -->
+            <!-- <router-view ></router-view> -->
+                    
+        </div>
+        
+        
+       
+</body>
+</html>
