@@ -1,6 +1,6 @@
 
 
-# myVue脚手架
+# Vue scaffold
 
 A Node.js web application with vue & koa2.
 
