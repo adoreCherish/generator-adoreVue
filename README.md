@@ -25,7 +25,7 @@ Fifth:
     execute node dist/app.js 
     Great! You can visit localhost:3000/index!        
     If you want to see the pictures,you can wirte php/java/XXXX to connect width sql
-    i use php to connect width sql,and my sql is published on my git  https://github.com/adoreCherish/ownProject 
+    i use php to connect width sql,and my sql is published on my git
     you can download it and put it on your server.
 Finally:
     Thanks!    
